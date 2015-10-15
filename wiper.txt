@@ -1,0 +1,40 @@
+WIPER 1.0 (C) 1991 Turgut Kalfaoglu
+
+WARNING: This program can cause CONSIDERABLE damage with one easy
+command!
+
+This program will remove a whole branch of a subdirectory tree, along
+with the files contained within those directories. The directories and
+its files can be as nested as you wish.
+
+To remove a subdirectory from your hard disk (or diskette), you need to
+change to its parent directory. For example, to remove \MYDIR\BLAH and
+all its subdirectories, you need to CD \MYDIR  before you run WIPER.
+Once this is done, and you made sure the default drive is the one you
+want processed by WIPER, you can issue "WIPER BLAH" to remove all the
+files and subdirectories of BLAH.
+
+The program simply removes and recurses into each subdirectory until the
+whole directory chain is processed.
+
+The program will prompt you for confirmation if you specify your root
+directory. Otherwise, the program does not prompt at all.
+
+
+Just remember:
+  1) The program does not accept drive letter in the command line.
+  2) You need to be above the directory you want removed.
+  3) Think twice. It runs awfully fast to stop once you hit ENTER.
+
+
+User Supported!
+
+If you like this program, PLEASE CONTRIBUTE $10 to this address:
+    Turgut Kalfaoglu
+    1378 Sok. 8/10
+    Alsancak, Izmir
+    Turkey
+
+All feedback appreciated. Either to the above address, or to this
+network address: <TURGUT@TREARN.BITNET>
+
